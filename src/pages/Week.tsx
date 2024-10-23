@@ -7,8 +7,8 @@ import { useSaveWeeksInServer } from '../hooks/get-data-hook';
 import { Container, Grid } from '@mui/material';
 
 export default function Week() {
-  const [selectedOption, setSelectedOption] = useState<string>('1');
   useSaveWeeksInServer();
+  const [selectedOption, setSelectedOption] = useState<string>('1');
   const { svgRef } = useWeek(parseInt(selectedOption, 10));
   const weeks = range(0, 15).map(String);
 
