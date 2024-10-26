@@ -1284,35 +1284,35 @@ export type components = {
       classification?: string;
     };
     Team: {
-      id?: number;
-      school?: string;
-      mascot?: string;
-      abbreviation?: string;
-      alt_name_1?: string;
-      alt_name_2?: string;
-      alt_name_3?: string;
-      classification?: string;
-      conference?: string;
-      division?: string;
-      color?: string;
-      alt_color?: string;
-      logos?: string[];
-      twitter?: string;
-      location?: {
-        venue_id?: number;
-        name?: string;
-        city?: string;
-        state?: string;
-        zip?: string;
-        country_code?: string;
-        timezone?: string;
-        latitude?: number;
-        longitude?: number;
-        elevation?: number | string;
-        capacity?: number;
-        year_constructed?: number;
-        grass?: boolean;
-        dome?: boolean;
+      id: number;
+      school: string;
+      mascot: string;
+      abbreviation: string;
+      alt_name_1: string;
+      alt_name_2: string;
+      alt_name_3: string;
+      classification: string;
+      conference: string;
+      division: string;
+      color: string;
+      alt_color: string;
+      logos: string[];
+      twitter: string;
+      location: {
+        venue_id: number;
+        name: string;
+        city: string;
+        state: string;
+        zip: string;
+        country_code: string;
+        timezone: string;
+        latitude: number;
+        longitude: number;
+        elevation: number | string;
+        capacity: number;
+        year_constructed: number;
+        grass: boolean;
+        dome: boolean;
       };
     };
     Player: {
@@ -2371,7 +2371,7 @@ export interface operations {
       query: {
         /** @description Year/season filter for games */
         year: number;
-        /** @description Week filter */
+        /** @description Map filter */
         week?: number;
         /** @description Season type filter (regular or postseason) */
         seasonType?: string;
@@ -2513,7 +2513,7 @@ export interface operations {
       query: {
         /** @description Year filter */
         year: number;
-        /** @description Week filter */
+        /** @description Map filter */
         week?: number;
         /** @description Season type filter (regular, postseason, or both) */
         seasonType?: string;
@@ -2557,7 +2557,7 @@ export interface operations {
         gameId?: number;
         /** @description Year filter (required if no game id) */
         year?: number;
-        /** @description Week filter */
+        /** @description Map filter */
         week?: number;
         /** @description Season type filter (regular, postseason, or both) */
         seasonType?: string;
@@ -2597,7 +2597,7 @@ export interface operations {
       query: {
         /** @description Year/season filter for games */
         year: number;
-        /** @description Week filter */
+        /** @description Map filter */
         week?: number;
         /** @description Season type filter (regular or postseason) */
         seasonType?: string;
@@ -2639,7 +2639,7 @@ export interface operations {
       query: {
         /** @description Year/season filter for games */
         year: number;
-        /** @description Week filter */
+        /** @description Map filter */
         week?: number;
         /** @description Season type filter (regular or postseason) */
         seasonType?: string;
@@ -2706,7 +2706,7 @@ export interface operations {
         seasonType?: string;
         /** @description Year filter */
         year: number;
-        /** @description Week filter */
+        /** @description Map filter */
         week?: number;
         /** @description Team filter */
         team?: string;
@@ -2747,7 +2747,7 @@ export interface operations {
         seasonType?: string;
         /** @description Year filter */
         year: number;
-        /** @description Week filter (required if team, offense, or defense, not specified) */
+        /** @description Map filter (required if team, offense, or defense, not specified) */
         week: number;
         /** @description Team filter */
         team?: string;
@@ -2831,7 +2831,7 @@ export interface operations {
       query?: {
         /** @description Year filter */
         year?: number;
-        /** @description Week filter */
+        /** @description Map filter */
         week?: number;
         /** @description Team filter */
         team?: string;
@@ -3147,7 +3147,7 @@ export interface operations {
       query: {
         /** @description Year/season filter for games */
         year: number;
-        /** @description Week filter */
+        /** @description Map filter */
         week?: number;
         /** @description Season type filter (regular or postseason) */
         seasonType?: string;
@@ -3183,7 +3183,7 @@ export interface operations {
         gameId?: number;
         /** @description Year/season filter for games */
         year?: number;
-        /** @description Week filter */
+        /** @description Map filter */
         week?: number;
         /** @description Season type filter (regular or postseason) */
         seasonType?: string;
@@ -3569,7 +3569,7 @@ export interface operations {
       query: {
         /** @description Year filter */
         year: number;
-        /** @description Week filter */
+        /** @description Map filter */
         week?: number;
         /** @description Team filter */
         team?: string;
@@ -3609,7 +3609,7 @@ export interface operations {
       query?: {
         /** @description Year filter */
         year?: number;
-        /** @description Week filter */
+        /** @description Map filter */
         week?: number;
         /** @description Team filter */
         team?: string;
@@ -3752,7 +3752,7 @@ export interface operations {
       query?: {
         /** @description Year filter */
         year?: number;
-        /** @description Week filter */
+        /** @description Map filter */
         week?: number;
         /** @description Team filter */
         team?: string;
@@ -3864,7 +3864,7 @@ export interface operations {
       query?: {
         /** @description Year filter (required if no team specified) */
         year?: number;
-        /** @description Week filter */
+        /** @description Map filter */
         week?: number;
         /** @description Team filter (required if no year specified) */
         team?: string;

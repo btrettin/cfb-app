@@ -1,5 +1,4 @@
 import React from 'react';
-import debounce from 'lodash.debounce';
 import {
   FormControl,
   InputLabel,
@@ -10,27 +9,28 @@ import {
 
 type DropdownProps = {
   options: string[];
-  selectedOption: string;
-  setSelectedOption: (val: string) => void;
+  value: string;
+  label: string;
+  onChange: (val: string) => void;
 };
 
-const Dropdown: React.FC<DropdownProps> = ({
+export default function Dropdown({
   options,
-  selectedOption,
-  setSelectedOption,
-}) => {
-  const handleChange = debounce((event: SelectChangeEvent) => {
-    setSelectedOption(event.target.value as string);
-  }, 300); // Adjust the delay to your needs
+  value,
+  onChange,
+  label,
+}: DropdownProps) {
+  const handleChange = (event: SelectChangeEvent) => {
+    onChange(event.target.value as string);
+  };
 
   return (
     <FormControl fullWidth>
-      <InputLabel id="dropdown-label">Select an option</InputLabel>
+      <InputLabel id="dropdown-label">{label}</InputLabel>
       <Select
         labelId="dropdown-label"
-        value={selectedOption || ''}
+        value={value || ''}
         onChange={handleChange}
-        displayEmpty
       >
         <MenuItem value="">
           <em>None</em>
@@ -43,6 +43,4 @@ const Dropdown: React.FC<DropdownProps> = ({
       </Select>
     </FormControl>
   );
-};
-
-export default Dropdown;
+}

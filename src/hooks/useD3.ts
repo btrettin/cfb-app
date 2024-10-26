@@ -20,17 +20,17 @@ export function useD3(
   const { path } = useMemo(() => getProjectionAndPath(), []);
 
   const countyFeatures = useMemo(() => {
-    if (!teams) return null;
+    if (!teams) return [];
     const topoJsonData = mapData.objects.counties.geometries;
     const countyNeighbors = neighbors(topoJsonData);
     return getInitialCountyFeatures(path, teams, countyNeighbors);
   }, [teams, path]);
 
-  const svg: SvgSelection = useMemo(() => {
+  const emptySvg: SvgSelection = useMemo(() => {
     return d3.select(svgElement.current as SVGSVGElement);
   }, [svgElement.current]);
 
-  return { countyFeatures: countyFeatures || [], svg, path };
+  return { countyFeatures, emptySvg, path };
 }
 
 function getInitialCountyFeatures(

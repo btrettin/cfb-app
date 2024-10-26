@@ -1,4 +1,4 @@
-import { components } from '../../types';
+import { components } from './cfb-api-types';
 
 export type Game = components['schemas']['Game'];
 export type TeamRecord = components['schemas']['TeamRecord'];

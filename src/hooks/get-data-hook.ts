@@ -1,5 +1,6 @@
-import { getWeekTerritories, saveWeeksInServer } from '../services/api';
 import { reactQuery } from '../react-query-helpers';
+import { getWeekTerritories } from '../features/map/api/get-territories';
+import { saveWeeksInServer } from '../features/support-tool/api/save-territories';
 
 export function useSaveWeeksInServer() {
   return reactQuery('save', saveWeeksInServer);

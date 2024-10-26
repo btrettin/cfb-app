@@ -27,7 +27,7 @@ export function fillCountyColor(
     .enter()
     .append('path')
     .attr('d', path)
-    .attr('fill', (county) => county.teamOwner?.color)
+    .attr('fill', (county) => county.teamOwner.color)
     .attr('stroke', 'black')
     .attr('stroke-width', 0.5)
     .on('mouseover', (event, d) => {
@@ -62,34 +62,35 @@ export function fillCountyLogo(
   Object.keys(countiesByTeamId).forEach((teamId) => {
     const groups = findTouchingGroups(countiesByTeamId[teamId], counties);
 
-    // Render one image per group of 5 or more touching counties
     groups.forEach((group) => {
       const totalCentroid = group.reduce(
         (acc, county) => {
-          const [cx, cy] = path.centroid(county); // Get the centroid of each county
+          const [cx, cy] = path.centroid(county);
           acc[0] += cx;
           acc[1] += cy;
           return acc;
         },
-        [0, 0] // Starting point for sum of centroids
+        [0, 0]
       );
 
-      // Average the x and y coordinates
       const groupCentroidX = totalCentroid[0] / group.length;
       const groupCentroidY = totalCentroid[1] / group.length;
 
       mapSvg
         .append('image')
-        .attr('xlink:href', group[0].teamOwner?.logos[1]) // Replace with your image URL
+        .attr('xlink:href', group[0]?.teamOwner.logos[1])
         .attr('width', 20)
         .attr('height', 20)
-        .attr('x', groupCentroidX - 10) // Adjust to center the image
-        .attr('y', groupCentroidY - 10); // Adjust to center the image
+        .attr('x', groupCentroidX - 10)
+        .attr('y', groupCentroidY - 10);
     });
   });
 }
 
-function findTouchingGroups(group: CountyFeature[], counties: CountyFeature[]) {
+function findTouchingGroups(
+  group: CountyFeature[],
+  counties: CountyFeature[]
+): CountyFeature[][] {
   const visited: boolean[] = new Array(group.length).fill(false);
   const touchingGroups: any[] = [];
 
@@ -98,33 +99,28 @@ function findTouchingGroups(group: CountyFeature[], counties: CountyFeature[]) {
       const stack = [countyFeature];
       const currentGroup: any[] = [];
 
-      // Depth-first search to find touching counties
       while (stack.length) {
         const currentCountyData = stack.pop();
+        if (!currentCountyData) continue;
         const currentIndex = group.indexOf(currentCountyData);
 
         if (!visited[currentIndex]) {
           visited[currentIndex] = true;
           currentGroup.push(currentCountyData);
 
-          // Add all unvisited neighbors with the same team Id to the stack
-          currentCountyData?.neighborIndexes?.forEach(
-            (neighborIndex: number) => {
-              const neighborCounty = counties[neighborIndex];
-              if (
-                neighborCounty &&
-                neighborCounty.teamOwner?.id ===
-                  currentCountyData.teamOwner?.id &&
-                !visited[group.indexOf(neighborCounty)]
-              ) {
-                stack.push(neighborCounty);
-              }
+          currentCountyData.neighborIndexes.forEach((neighborIndex: number) => {
+            const neighborCounty = counties[neighborIndex];
+            if (
+              neighborCounty &&
+              neighborCounty.teamOwner.id === currentCountyData.teamOwner.id &&
+              !visited[group.indexOf(neighborCounty)]
+            ) {
+              stack.push(neighborCounty);
             }
-          );
+          });
         }
       }
 
-      // If this group has 5 or more counties, store it
       if (currentGroup.length >= 2) {
         touchingGroups.push(currentGroup);
       }
@@ -139,7 +135,7 @@ function groupCountiesByTeamId(
 ): Record<string, CountyFeature[]> {
   const groupedCounties: Record<string, any[]> = {};
   counties.forEach((county) => {
-    const countyTeam = county?.teamOwner?.id as number;
+    const countyTeam = county.teamOwner.id;
     if (!groupedCounties[countyTeam]) {
       groupedCounties[countyTeam] = [];
     }
