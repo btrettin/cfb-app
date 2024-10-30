@@ -1,0 +1,12 @@
+.tooltip {
+  position: absolute;
+  display: none; /* Initially hidden */
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  color: white;
+  border-radius: 4px;
+  font-size: 0.9em;
+  pointer-events: none; /* Prevents the tooltip from interfering with mouse events */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 10; /* Ensure tooltip appears above other elements */
+}
