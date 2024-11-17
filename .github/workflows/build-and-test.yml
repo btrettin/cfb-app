@@ -26,7 +26,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: ${{ matrix.directory }}
-        run: npm install
+        run: npm ci --workspaces --prefer-offline --ignore-scripts
 
       - name: Run Lint
         working-directory: ${{ matrix.directory }}

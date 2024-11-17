@@ -6,7 +6,6 @@
     "backend"
   ],
   "scripts": {
-    "install": "npm ci --workspaces --prefer-offline",
     "dev": "concurrently \"npm --prefix ./frontend run dev\" \"npm --prefix ./backend run dev\"",
     "build": "concurrently \"npm --prefix ./frontend run build\" \"npm --prefix ./backend run build\""
   },
