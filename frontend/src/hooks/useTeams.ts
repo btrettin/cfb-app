@@ -1,4 +1,4 @@
-import { Team } from '../types/api-types';
+import { Team } from '../../../shared/types/api-types';
 import { getTeamsData } from '../data/teams';
 import { TeamsById } from '../types/types';
 import { keyBy } from 'lodash';

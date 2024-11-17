@@ -1,5 +1,5 @@
 import * as d3 from 'd3';
-import { Team } from './api-types';
+import { Team } from '../../../shared/types/api-types';
 import { Feature } from 'geojson';
 
 export type TeamsById = Record<string, Team>;

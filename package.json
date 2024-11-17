@@ -1,0 +1,23 @@
+{
+  "name": "cfb-app",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "install": "npm install --workspaces --no-audit --prefer-offline",
+    "dev": "concurrently \"npm --prefix ./frontend run dev\" \"npm --prefix ./backend run dev\"",
+    "build": "concurrently \"npm --prefix ./frontend run build\" \"npm --prefix ./backend run build\""
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "node-fetch": "^3.3.2",
+    "d3": "^7.9.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "@types/lodash": "^4.17.12",
+    "typescript": "^5.6.3"
+  }
+}

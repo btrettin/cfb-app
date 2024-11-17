@@ -5,7 +5,7 @@ import * as d3 from 'd3';
 import { Feature, FeatureCollection, Geometry } from 'geojson';
 import * as topojson from 'topojson-client';
 import { neighbors } from 'topojson-client';
-import { Team } from '@/types/api-types';
+import { Team } from '../../../shared/types/api-types';
 import { CountyFeature, SvgSelection } from '@/types/types';
 import mapJson from '../data/topo.json';
 import { getClosest } from '@/services/coordinate-helpers';
