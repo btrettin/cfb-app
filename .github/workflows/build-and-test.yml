@@ -24,6 +24,17 @@ jobs:
         with:
           node-version: '18'
 
+      - name: Cache Node.js modules
+        id: cache-node-modules
+        uses: actions/cache@v3
+        with:
+          path: |
+            ${{ matrix.directory }}/node_modules
+            ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('${{ matrix.directory }}/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
       - name: Install dependencies
         working-directory: ${{ matrix.directory }}
         run: npm ci --workspaces --prefer-offline --ignore-scripts
