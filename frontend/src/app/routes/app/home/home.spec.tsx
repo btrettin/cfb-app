@@ -1,5 +1,5 @@
 describe('test', () => {
-    it('should be true', () => {
-        expect(5).toEqual(5)
-    });
+  it('should be true', () => {
+    expect(5).toEqual(5);
+  });
 });

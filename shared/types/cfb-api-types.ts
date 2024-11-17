@@ -4,7 +4,7 @@
  */
 
 export type paths = {
-  '/games': {
+  "/games": {
     parameters: {
       query?: never;
       header?: never;
@@ -15,7 +15,7 @@ export type paths = {
      * Games and results
      * @description Get game results
      */
-    get: operations['getGames'];
+    get: operations["getGames"];
     put?: never;
     post?: never;
     delete?: never;
@@ -24,7 +24,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/scoreboard': {
+  "/scoreboard": {
     parameters: {
       query?: never;
       header?: never;
@@ -35,7 +35,7 @@ export type paths = {
      * Live game results (Patreon only)
      * @description Get live game results
      */
-    get: operations['getScoreboard'];
+    get: operations["getScoreboard"];
     put?: never;
     post?: never;
     delete?: never;
@@ -44,7 +44,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/records': {
+  "/records": {
     parameters: {
       query?: never;
       header?: never;
@@ -55,7 +55,7 @@ export type paths = {
      * Team records
      * @description Get team records by year
      */
-    get: operations['getTeamRecords'];
+    get: operations["getTeamRecords"];
     put?: never;
     post?: never;
     delete?: never;
@@ -64,7 +64,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/calendar': {
+  "/calendar": {
     parameters: {
       query?: never;
       header?: never;
@@ -75,7 +75,7 @@ export type paths = {
      * Season calendar
      * @description Get calendar of weeks by season
      */
-    get: operations['getCalendar'];
+    get: operations["getCalendar"];
     put?: never;
     post?: never;
     delete?: never;
@@ -84,7 +84,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/games/media': {
+  "/games/media": {
     parameters: {
       query?: never;
       header?: never;
@@ -95,7 +95,7 @@ export type paths = {
      * Game media information and schedules
      * @description Game media information (TV, radio, etc)
      */
-    get: operations['getGameMedia'];
+    get: operations["getGameMedia"];
     put?: never;
     post?: never;
     delete?: never;
@@ -104,7 +104,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/games/weather': {
+  "/games/weather": {
     parameters: {
       query?: never;
       header?: never;
@@ -115,7 +115,7 @@ export type paths = {
      * Game weather information (Patreon only)
      * @description Weather information for the hour of kickoff
      */
-    get: operations['getGameWeather'];
+    get: operations["getGameWeather"];
     put?: never;
     post?: never;
     delete?: never;
@@ -124,7 +124,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/games/players': {
+  "/games/players": {
     parameters: {
       query?: never;
       header?: never;
@@ -135,7 +135,7 @@ export type paths = {
      * Player game stats
      * @description Player stats broken down by game
      */
-    get: operations['getPlayerGameStats'];
+    get: operations["getPlayerGameStats"];
     put?: never;
     post?: never;
     delete?: never;
@@ -144,7 +144,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/games/teams': {
+  "/games/teams": {
     parameters: {
       query?: never;
       header?: never;
@@ -155,7 +155,7 @@ export type paths = {
      * Team game stats
      * @description Team stats broken down by game
      */
-    get: operations['getTeamGameStats'];
+    get: operations["getTeamGameStats"];
     put?: never;
     post?: never;
     delete?: never;
@@ -164,7 +164,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/game/box/advanced': {
+  "/game/box/advanced": {
     parameters: {
       query?: never;
       header?: never;
@@ -175,7 +175,7 @@ export type paths = {
      * Advanced box scores
      * @description Get advanced box score data
      */
-    get: operations['getAdvancedBoxScore'];
+    get: operations["getAdvancedBoxScore"];
     put?: never;
     post?: never;
     delete?: never;
@@ -184,7 +184,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/drives': {
+  "/drives": {
     parameters: {
       query?: never;
       header?: never;
@@ -195,7 +195,7 @@ export type paths = {
      * Drive data and results
      * @description Get game drives
      */
-    get: operations['getDrives'];
+    get: operations["getDrives"];
     put?: never;
     post?: never;
     delete?: never;
@@ -204,7 +204,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/plays': {
+  "/plays": {
     parameters: {
       query?: never;
       header?: never;
@@ -215,7 +215,7 @@ export type paths = {
      * Play by play data
      * @description Get play data and results
      */
-    get: operations['getPlays'];
+    get: operations["getPlays"];
     put?: never;
     post?: never;
     delete?: never;
@@ -224,7 +224,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/live/plays': {
+  "/live/plays": {
     parameters: {
       query?: never;
       header?: never;
@@ -235,7 +235,7 @@ export type paths = {
      * Live metrics and PBP (Patreon only)
      * @description Get live metrics and PBP
      */
-    get: operations['getLivePlays'];
+    get: operations["getLivePlays"];
     put?: never;
     post?: never;
     delete?: never;
@@ -244,7 +244,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/play/types': {
+  "/play/types": {
     parameters: {
       query?: never;
       header?: never;
@@ -255,7 +255,7 @@ export type paths = {
      * Play types
      * @description Types of plays
      */
-    get: operations['getPlayTypes'];
+    get: operations["getPlayTypes"];
     put?: never;
     post?: never;
     delete?: never;
@@ -264,7 +264,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/play/stats': {
+  "/play/stats": {
     parameters: {
       query?: never;
       header?: never;
@@ -275,7 +275,7 @@ export type paths = {
      * Play stats by play
      * @description Gets player stats associated by play (limit 1000)
      */
-    get: operations['getPlayStats'];
+    get: operations["getPlayStats"];
     put?: never;
     post?: never;
     delete?: never;
@@ -284,7 +284,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/play/stat/types': {
+  "/play/stat/types": {
     parameters: {
       query?: never;
       header?: never;
@@ -295,7 +295,7 @@ export type paths = {
      * Types of player play stats
      * @description Type of play stats
      */
-    get: operations['getPlayStatTypes'];
+    get: operations["getPlayStatTypes"];
     put?: never;
     post?: never;
     delete?: never;
@@ -304,7 +304,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/conferences': {
+  "/conferences": {
     parameters: {
       query?: never;
       header?: never;
@@ -315,7 +315,7 @@ export type paths = {
      * Conferences
      * @description Get conference list
      */
-    get: operations['getConferences'];
+    get: operations["getConferences"];
     put?: never;
     post?: never;
     delete?: never;
@@ -324,7 +324,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/teams': {
+  "/teams": {
     parameters: {
       query?: never;
       header?: never;
@@ -335,7 +335,7 @@ export type paths = {
      * Team information
      * @description Get team information
      */
-    get: operations['getTeams'];
+    get: operations["getTeams"];
     put?: never;
     post?: never;
     delete?: never;
@@ -344,7 +344,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/teams/fbs': {
+  "/teams/fbs": {
     parameters: {
       query?: never;
       header?: never;
@@ -355,7 +355,7 @@ export type paths = {
      * FBS team list
      * @description Information on major division teams
      */
-    get: operations['getFbsTeams'];
+    get: operations["getFbsTeams"];
     put?: never;
     post?: never;
     delete?: never;
@@ -364,7 +364,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/roster': {
+  "/roster": {
     parameters: {
       query?: never;
       header?: never;
@@ -375,7 +375,7 @@ export type paths = {
      * Team rosters
      * @description Roster data
      */
-    get: operations['getRoster'];
+    get: operations["getRoster"];
     put?: never;
     post?: never;
     delete?: never;
@@ -384,7 +384,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/talent': {
+  "/talent": {
     parameters: {
       query?: never;
       header?: never;
@@ -395,7 +395,7 @@ export type paths = {
      * Team talent composite rankings
      * @description Team talent composite
      */
-    get: operations['getTalent'];
+    get: operations["getTalent"];
     put?: never;
     post?: never;
     delete?: never;
@@ -404,7 +404,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/teams/matchup': {
+  "/teams/matchup": {
     parameters: {
       query?: never;
       header?: never;
@@ -415,7 +415,7 @@ export type paths = {
      * Team matchup history
      * @description Matchup history
      */
-    get: operations['getTeamMatchup'];
+    get: operations["getTeamMatchup"];
     put?: never;
     post?: never;
     delete?: never;
@@ -424,7 +424,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/venues': {
+  "/venues": {
     parameters: {
       query?: never;
       header?: never;
@@ -435,7 +435,7 @@ export type paths = {
      * Arena and venue information
      * @description Venues
      */
-    get: operations['getVenues'];
+    get: operations["getVenues"];
     put?: never;
     post?: never;
     delete?: never;
@@ -444,7 +444,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/coaches': {
+  "/coaches": {
     parameters: {
       query?: never;
       header?: never;
@@ -455,7 +455,7 @@ export type paths = {
      * Coaching records and history
      * @description Coaching history
      */
-    get: operations['getCoaches'];
+    get: operations["getCoaches"];
     put?: never;
     post?: never;
     delete?: never;
@@ -464,7 +464,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/rankings': {
+  "/rankings": {
     parameters: {
       query?: never;
       header?: never;
@@ -475,7 +475,7 @@ export type paths = {
      * Historical polls and rankings
      * @description Poll rankings
      */
-    get: operations['getRankings'];
+    get: operations["getRankings"];
     put?: never;
     post?: never;
     delete?: never;
@@ -484,7 +484,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/lines': {
+  "/lines": {
     parameters: {
       query?: never;
       header?: never;
@@ -495,7 +495,7 @@ export type paths = {
      * Betting lines
      * @description Closing betting lines
      */
-    get: operations['getLines'];
+    get: operations["getLines"];
     put?: never;
     post?: never;
     delete?: never;
@@ -504,7 +504,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/recruiting/players': {
+  "/recruiting/players": {
     parameters: {
       query?: never;
       header?: never;
@@ -515,7 +515,7 @@ export type paths = {
      * Player recruiting ratings and rankings
      * @description Get player recruiting rankings and data. Requires either a year or team to be specified.
      */
-    get: operations['getRecruitingPlayers'];
+    get: operations["getRecruitingPlayers"];
     put?: never;
     post?: never;
     delete?: never;
@@ -524,7 +524,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/recruiting/teams': {
+  "/recruiting/teams": {
     parameters: {
       query?: never;
       header?: never;
@@ -535,7 +535,7 @@ export type paths = {
      * Team recruiting rankings and ratings
      * @description Team recruiting rankings
      */
-    get: operations['getRecruitingTeams'];
+    get: operations["getRecruitingTeams"];
     put?: never;
     post?: never;
     delete?: never;
@@ -544,7 +544,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/recruiting/groups': {
+  "/recruiting/groups": {
     parameters: {
       query?: never;
       header?: never;
@@ -555,7 +555,7 @@ export type paths = {
      * Recruit position group ratings
      * @description Gets a list of aggregated statistics by team and position grouping
      */
-    get: operations['getRecruitingGroups'];
+    get: operations["getRecruitingGroups"];
     put?: never;
     post?: never;
     delete?: never;
@@ -564,7 +564,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/ratings/sp': {
+  "/ratings/sp": {
     parameters: {
       query?: never;
       header?: never;
@@ -575,7 +575,7 @@ export type paths = {
      * Historical SP+ ratings
      * @description SP+ rating data
      */
-    get: operations['getSPRatings'];
+    get: operations["getSPRatings"];
     put?: never;
     post?: never;
     delete?: never;
@@ -584,7 +584,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/ratings/srs': {
+  "/ratings/srs": {
     parameters: {
       query?: never;
       header?: never;
@@ -595,7 +595,7 @@ export type paths = {
      * Historical SRS ratings
      * @description SRS rating data (requires either a year or team specified)
      */
-    get: operations['getSRSRatings'];
+    get: operations["getSRSRatings"];
     put?: never;
     post?: never;
     delete?: never;
@@ -604,7 +604,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/ratings/sp/conferences': {
+  "/ratings/sp/conferences": {
     parameters: {
       query?: never;
       header?: never;
@@ -615,7 +615,7 @@ export type paths = {
      * Historical SP+ ratings by conference
      * @description Get average SP+ historical rating data by conference
      */
-    get: operations['getConferenceSPRatings'];
+    get: operations["getConferenceSPRatings"];
     put?: never;
     post?: never;
     delete?: never;
@@ -624,7 +624,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/ratings/elo': {
+  "/ratings/elo": {
     parameters: {
       query?: never;
       header?: never;
@@ -635,7 +635,7 @@ export type paths = {
      * Historical Elo ratings
      * @description Elo rating data
      */
-    get: operations['getEloRatings'];
+    get: operations["getEloRatings"];
     put?: never;
     post?: never;
     delete?: never;
@@ -644,7 +644,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/ratings/fpi': {
+  "/ratings/fpi": {
     parameters: {
       query?: never;
       header?: never;
@@ -655,7 +655,7 @@ export type paths = {
      * Historical FPI ratings
      * @description FPI rating data
      */
-    get: operations['getFPIRatings'];
+    get: operations["getFPIRatings"];
     put?: never;
     post?: never;
     delete?: never;
@@ -664,7 +664,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/ppa/predicted': {
+  "/ppa/predicted": {
     parameters: {
       query?: never;
       header?: never;
@@ -675,7 +675,7 @@ export type paths = {
      * Predicted Points (i.e. Expected Points or EP)
      * @description Predicted Points
      */
-    get: operations['getPredictedPoints'];
+    get: operations["getPredictedPoints"];
     put?: never;
     post?: never;
     delete?: never;
@@ -684,7 +684,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/ppa/teams': {
+  "/ppa/teams": {
     parameters: {
       query?: never;
       header?: never;
@@ -695,7 +695,7 @@ export type paths = {
      * Predicted Points Added (PPA/EPA) data by team
      * @description Predicted Points Added (PPA)
      */
-    get: operations['getTeamPPA'];
+    get: operations["getTeamPPA"];
     put?: never;
     post?: never;
     delete?: never;
@@ -704,7 +704,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/ppa/games': {
+  "/ppa/games": {
     parameters: {
       query?: never;
       header?: never;
@@ -715,7 +715,7 @@ export type paths = {
      * Team Predicated Points Added (PPA/EPA) by game
      * @description Predicted Points Added (PPA) by game
      */
-    get: operations['getGamePPA'];
+    get: operations["getGamePPA"];
     put?: never;
     post?: never;
     delete?: never;
@@ -724,7 +724,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/ppa/players/games': {
+  "/ppa/players/games": {
     parameters: {
       query?: never;
       header?: never;
@@ -735,7 +735,7 @@ export type paths = {
      * Player Predicated Points Added (PPA/EPA) broken down by game
      * @description Predicted Points Added (PPA) by player game
      */
-    get: operations['getPlayerGamePPA'];
+    get: operations["getPlayerGamePPA"];
     put?: never;
     post?: never;
     delete?: never;
@@ -744,7 +744,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/ppa/players/season': {
+  "/ppa/players/season": {
     parameters: {
       query?: never;
       header?: never;
@@ -755,7 +755,7 @@ export type paths = {
      * Player Predicated Points Added (PPA/EPA) broken down by season
      * @description Predicted Points Added (PPA) by player season
      */
-    get: operations['getPlayerSeasonPPA'];
+    get: operations["getPlayerSeasonPPA"];
     put?: never;
     post?: never;
     delete?: never;
@@ -764,7 +764,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/metrics/fg/ep': {
+  "/metrics/fg/ep": {
     parameters: {
       query?: never;
       header?: never;
@@ -775,7 +775,7 @@ export type paths = {
      * Field Goal Expected Points
      * @description Field Goal Expected Poitns
      */
-    get: operations['getFGEP'];
+    get: operations["getFGEP"];
     put?: never;
     post?: never;
     delete?: never;
@@ -784,7 +784,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/metrics/wp': {
+  "/metrics/wp": {
     parameters: {
       query?: never;
       header?: never;
@@ -795,7 +795,7 @@ export type paths = {
      * Win probability chart data
      * @description Win probability data
      */
-    get: operations['getWinProbabilityData'];
+    get: operations["getWinProbabilityData"];
     put?: never;
     post?: never;
     delete?: never;
@@ -804,7 +804,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/metrics/wp/pregame': {
+  "/metrics/wp/pregame": {
     parameters: {
       query?: never;
       header?: never;
@@ -815,7 +815,7 @@ export type paths = {
      * Pregame win probability data
      * @description Pregame win probabilities
      */
-    get: operations['getPregameWinProbabilities'];
+    get: operations["getPregameWinProbabilities"];
     put?: never;
     post?: never;
     delete?: never;
@@ -824,7 +824,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/stats/season': {
+  "/stats/season": {
     parameters: {
       query?: never;
       header?: never;
@@ -835,7 +835,7 @@ export type paths = {
      * Team statistics by season
      * @description Team season stats
      */
-    get: operations['getTeamSeasonStats'];
+    get: operations["getTeamSeasonStats"];
     put?: never;
     post?: never;
     delete?: never;
@@ -844,7 +844,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/stats/season/advanced': {
+  "/stats/season/advanced": {
     parameters: {
       query?: never;
       header?: never;
@@ -855,7 +855,7 @@ export type paths = {
      * Advanced team metrics by season
      * @description Advanced team season stats
      */
-    get: operations['getAdvancedTeamSeasonStats'];
+    get: operations["getAdvancedTeamSeasonStats"];
     put?: never;
     post?: never;
     delete?: never;
@@ -864,7 +864,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/stats/game/advanced': {
+  "/stats/game/advanced": {
     parameters: {
       query?: never;
       header?: never;
@@ -875,7 +875,7 @@ export type paths = {
      * Advanced team metrics by game
      * @description Advanced team game stats
      */
-    get: operations['getAdvancedTeamGameStats'];
+    get: operations["getAdvancedTeamGameStats"];
     put?: never;
     post?: never;
     delete?: never;
@@ -884,7 +884,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/stats/categories': {
+  "/stats/categories": {
     parameters: {
       query?: never;
       header?: never;
@@ -895,7 +895,7 @@ export type paths = {
      * Team stat categories
      * @description Stat category list
      */
-    get: operations['getStatCategories'];
+    get: operations["getStatCategories"];
     put?: never;
     post?: never;
     delete?: never;
@@ -904,7 +904,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/player/search': {
+  "/player/search": {
     parameters: {
       query?: never;
       header?: never;
@@ -915,7 +915,7 @@ export type paths = {
      * Search for player information
      * @description Search for players
      */
-    get: operations['playerSearch'];
+    get: operations["playerSearch"];
     put?: never;
     post?: never;
     delete?: never;
@@ -924,7 +924,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/player/usage': {
+  "/player/usage": {
     parameters: {
       query?: never;
       header?: never;
@@ -935,7 +935,7 @@ export type paths = {
      * Player usage metrics broken down by season
      * @description Player usage metrics by season
      */
-    get: operations['getPlayerUsage'];
+    get: operations["getPlayerUsage"];
     put?: never;
     post?: never;
     delete?: never;
@@ -944,7 +944,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/player/returning': {
+  "/player/returning": {
     parameters: {
       query?: never;
       header?: never;
@@ -955,7 +955,7 @@ export type paths = {
      * Team returning production metrics
      * @description Returning production metrics
      */
-    get: operations['getReturningProduction'];
+    get: operations["getReturningProduction"];
     put?: never;
     post?: never;
     delete?: never;
@@ -964,7 +964,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/stats/player/season': {
+  "/stats/player/season": {
     parameters: {
       query?: never;
       header?: never;
@@ -975,7 +975,7 @@ export type paths = {
      * Player stats by season
      * @description Season player stats
      */
-    get: operations['getPlayerSeasonStats'];
+    get: operations["getPlayerSeasonStats"];
     put?: never;
     post?: never;
     delete?: never;
@@ -984,7 +984,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/player/portal': {
+  "/player/portal": {
     parameters: {
       query?: never;
       header?: never;
@@ -995,7 +995,7 @@ export type paths = {
      * Transfer portal by season
      * @description Transfer portal by season
      */
-    get: operations['getTransferPortal'];
+    get: operations["getTransferPortal"];
     put?: never;
     post?: never;
     delete?: never;
@@ -1004,7 +1004,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/draft/teams': {
+  "/draft/teams": {
     parameters: {
       query?: never;
       header?: never;
@@ -1015,7 +1015,7 @@ export type paths = {
      * List of NFL teams
      * @description List of NFL teams
      */
-    get: operations['getNFLTeams'];
+    get: operations["getNFLTeams"];
     put?: never;
     post?: never;
     delete?: never;
@@ -1024,7 +1024,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/draft/positions': {
+  "/draft/positions": {
     parameters: {
       query?: never;
       header?: never;
@@ -1035,7 +1035,7 @@ export type paths = {
      * List of NFL positions
      * @description List of NFL positions
      */
-    get: operations['getNFLPositions'];
+    get: operations["getNFLPositions"];
     put?: never;
     post?: never;
     delete?: never;
@@ -1044,7 +1044,7 @@ export type paths = {
     patch?: never;
     trace?: never;
   };
-  '/draft/picks': {
+  "/draft/picks": {
     parameters: {
       query?: never;
       header?: never;
@@ -1055,7 +1055,7 @@ export type paths = {
      * List of NFL Draft picks
      * @description List of NFL Draft picks
      */
-    get: operations['getDraftPicks'];
+    get: operations["getDraftPicks"];
     put?: never;
     post?: never;
     delete?: never;
@@ -2400,7 +2400,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['Game'][];
+          "application/json": components["schemas"]["Game"][];
         };
       };
       /** @description error */
@@ -2432,7 +2432,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['ScoreboardGame'][];
+          "application/json": components["schemas"]["ScoreboardGame"][];
         };
       };
       /** @description error */
@@ -2466,7 +2466,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['TeamRecord'][];
+          "application/json": components["schemas"]["TeamRecord"][];
         };
       };
       /** @description error */
@@ -2496,7 +2496,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['Week'][];
+          "application/json": components["schemas"]["Week"][];
         };
       };
       /** @description error */
@@ -2538,7 +2538,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['GameMedia'][];
+          "application/json": components["schemas"]["GameMedia"][];
         };
       };
       /** @description error */
@@ -2580,7 +2580,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['GameWeather'][];
+          "application/json": components["schemas"]["GameWeather"][];
         };
       };
       /** @description error */
@@ -2622,7 +2622,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['PlayerGame'][];
+          "application/json": components["schemas"]["PlayerGame"][];
         };
       };
       /** @description error */
@@ -2664,7 +2664,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['TeamGame'][];
+          "application/json": components["schemas"]["TeamGame"][];
         };
       };
       /** @description error */
@@ -2694,7 +2694,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['BoxScore'];
+          "application/json": components["schemas"]["BoxScore"];
         };
       };
     };
@@ -2735,7 +2735,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['Drive'][];
+          "application/json": components["schemas"]["Drive"][];
         };
       };
     };
@@ -2778,7 +2778,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['Play'][];
+          "application/json": components["schemas"]["Play"][];
         };
       };
     };
@@ -2801,7 +2801,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['LivePlayByPlay'];
+          "application/json": components["schemas"]["LivePlayByPlay"];
         };
       };
     };
@@ -2821,7 +2821,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['PlayType'][];
+          "application/json": components["schemas"]["PlayType"][];
         };
       };
     };
@@ -2858,7 +2858,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['PlayStat'][];
+          "application/json": components["schemas"]["PlayStat"][];
         };
       };
       /** @description error */
@@ -2885,7 +2885,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['PlayStatType'][];
+          "application/json": components["schemas"]["PlayStatType"][];
         };
       };
       /** @description error */
@@ -2912,7 +2912,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['Conference'][];
+          "application/json": components["schemas"]["Conference"][];
         };
       };
       /** @description error */
@@ -2942,7 +2942,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['Team'][];
+          "application/json": components["schemas"]["Team"][];
         };
       };
       /** @description error */
@@ -2972,7 +2972,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['Team'][];
+          "application/json": components["schemas"]["Team"][];
         };
       };
       /** @description error */
@@ -3004,7 +3004,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['Player'][];
+          "application/json": components["schemas"]["Player"][];
         };
       };
       /** @description error */
@@ -3034,7 +3034,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['TeamTalent'][];
+          "application/json": components["schemas"]["TeamTalent"][];
         };
       };
       /** @description error */
@@ -3070,7 +3070,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['TeamMatchup'];
+          "application/json": components["schemas"]["TeamMatchup"];
         };
       };
       /** @description error */
@@ -3097,7 +3097,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['Venue'][];
+          "application/json": components["schemas"]["Venue"][];
         };
       };
       /** @description error */
@@ -3137,7 +3137,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['Coach'][];
+          "application/json": components["schemas"]["Coach"][];
         };
       };
     };
@@ -3164,7 +3164,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['RankingWeek'][];
+          "application/json": components["schemas"]["RankingWeek"][];
         };
       };
       /** @description error */
@@ -3208,7 +3208,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['GameLines'][];
+          "application/json": components["schemas"]["GameLines"][];
         };
       };
       /** @description error */
@@ -3246,7 +3246,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['Recruit'][];
+          "application/json": components["schemas"]["Recruit"][];
         };
       };
       /** @description error */
@@ -3278,7 +3278,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['TeamRecruitingRank'][];
+          "application/json": components["schemas"]["TeamRecruitingRank"][];
         };
       };
       /** @description error */
@@ -3314,7 +3314,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['PositionGroupRecruitingRating'][];
+          "application/json": components["schemas"]["PositionGroupRecruitingRating"][];
         };
       };
       /** @description error */
@@ -3346,7 +3346,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['TeamSPRating'][];
+          "application/json": components["schemas"]["TeamSPRating"][];
         };
       };
       /** @description error */
@@ -3380,7 +3380,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['TeamSRSRating'][];
+          "application/json": components["schemas"]["TeamSRSRating"][];
         };
       };
       /** @description error */
@@ -3412,7 +3412,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['ConferenceSPRating'][];
+          "application/json": components["schemas"]["ConferenceSPRating"][];
         };
       };
       /** @description error */
@@ -3450,7 +3450,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['TeamEloRating'][];
+          "application/json": components["schemas"]["TeamEloRating"][];
         };
       };
       /** @description error */
@@ -3484,7 +3484,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['TeamFPIRating'][];
+          "application/json": components["schemas"]["TeamFPIRating"][];
         };
       };
       /** @description error */
@@ -3516,7 +3516,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['PredictedPoints'][];
+          "application/json": components["schemas"]["PredictedPoints"][];
         };
       };
       /** @description error */
@@ -3552,7 +3552,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['TeamPPA'][];
+          "application/json": components["schemas"]["TeamPPA"][];
         };
       };
       /** @description error */
@@ -3592,7 +3592,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['GamePPA'][];
+          "application/json": components["schemas"]["GamePPA"][];
         };
       };
       /** @description error */
@@ -3636,7 +3636,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['PlayerGamePPA'][];
+          "application/json": components["schemas"]["PlayerGamePPA"][];
         };
       };
       /** @description error */
@@ -3678,7 +3678,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['PlayerSeasonPPA'][];
+          "application/json": components["schemas"]["PlayerSeasonPPA"][];
         };
       };
       /** @description error */
@@ -3705,7 +3705,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['FieldGoalExpectedPoints'][];
+          "application/json": components["schemas"]["FieldGoalExpectedPoints"][];
         };
       };
       /** @description error */
@@ -3735,7 +3735,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['PlayWP'][];
+          "application/json": components["schemas"]["PlayWP"][];
         };
       };
       /** @description error */
@@ -3771,7 +3771,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['PregameWP'][];
+          "application/json": components["schemas"]["PregameWP"][];
         };
       };
       /** @description error */
@@ -3809,7 +3809,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['TeamSeasonStat'][];
+          "application/json": components["schemas"]["TeamSeasonStat"][];
         };
       };
       /** @description error */
@@ -3847,7 +3847,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['AdvancedSeasonStat'][];
+          "application/json": components["schemas"]["AdvancedSeasonStat"][];
         };
       };
       /** @description error */
@@ -3887,7 +3887,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['AdvancedGameStat'][];
+          "application/json": components["schemas"]["AdvancedGameStat"][];
         };
       };
       /** @description error */
@@ -3914,7 +3914,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': string[];
+          "application/json": string[];
         };
       };
     };
@@ -3943,7 +3943,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['PlayerSearchResult'][];
+          "application/json": components["schemas"]["PlayerSearchResult"][];
         };
       };
       /** @description error */
@@ -3983,7 +3983,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['PlayerUsage'][];
+          "application/json": components["schemas"]["PlayerUsage"][];
         };
       };
       /** @description error */
@@ -4017,7 +4017,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['ReturningProduction'][];
+          "application/json": components["schemas"]["ReturningProduction"][];
         };
       };
       /** @description error */
@@ -4059,7 +4059,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['PlayerSeasonStat'][];
+          "application/json": components["schemas"]["PlayerSeasonStat"][];
         };
       };
       /** @description error */
@@ -4089,7 +4089,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['PortalPlayer'][];
+          "application/json": components["schemas"]["PortalPlayer"][];
         };
       };
       /** @description error */
@@ -4116,7 +4116,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['DraftTeam'][];
+          "application/json": components["schemas"]["DraftTeam"][];
         };
       };
       /** @description error */
@@ -4143,7 +4143,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['DraftPosition'][];
+          "application/json": components["schemas"]["DraftPosition"][];
         };
       };
       /** @description error */
@@ -4181,7 +4181,7 @@ export interface operations {
           [name: string]: unknown;
         };
         content: {
-          'application/json': components['schemas']['DraftPick'][];
+          "application/json": components["schemas"]["DraftPick"][];
         };
       };
       /** @description error */

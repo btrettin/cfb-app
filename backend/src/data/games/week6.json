@@ -17,12 +17,7 @@
     "home_conference": "Sun Belt",
     "home_division": "fbs",
     "home_points": 17,
-    "home_line_scores": [
-      0,
-      10,
-      7,
-      0
-    ],
+    "home_line_scores": [0, 10, 7, 0],
     "home_post_win_prob": "0.15409304049935388",
     "home_pregame_elo": 1504,
     "home_postgame_elo": 1454,
@@ -31,12 +26,7 @@
     "away_conference": "Sun Belt",
     "away_division": "fbs",
     "away_points": 38,
-    "away_line_scores": [
-      14,
-      14,
-      10,
-      0
-    ],
+    "away_line_scores": [14, 14, 10, 0],
     "away_post_win_prob": "0.8459069595006461",
     "away_pregame_elo": 1534,
     "away_postgame_elo": 1584,
@@ -62,12 +52,7 @@
     "home_conference": "Conference USA",
     "home_division": "fbs",
     "home_points": 21,
-    "home_line_scores": [
-      0,
-      7,
-      7,
-      7
-    ],
+    "home_line_scores": [0, 7, 7, 7],
     "home_post_win_prob": "0.006751532371953858",
     "home_pregame_elo": 1206,
     "home_postgame_elo": 1181,
@@ -76,12 +61,7 @@
     "away_conference": "Conference USA",
     "away_division": "fbs",
     "away_points": 41,
-    "away_line_scores": [
-      7,
-      10,
-      21,
-      3
-    ],
+    "away_line_scores": [7, 10, 21, 3],
     "away_post_win_prob": "0.9932484676280462",
     "away_pregame_elo": 1439,
     "away_postgame_elo": 1464,
@@ -107,12 +87,7 @@
     "home_conference": "Conference USA",
     "home_division": "fbs",
     "home_points": 24,
-    "home_line_scores": [
-      3,
-      14,
-      0,
-      7
-    ],
+    "home_line_scores": [3, 14, 0, 7],
     "home_post_win_prob": "0.08121356033334157",
     "home_pregame_elo": 1388,
     "home_postgame_elo": 1281,
@@ -121,12 +96,7 @@
     "away_conference": "Conference USA",
     "away_division": "fbs",
     "away_points": 63,
-    "away_line_scores": [
-      7,
-      14,
-      21,
-      21
-    ],
+    "away_line_scores": [7, 14, 21, 21],
     "away_post_win_prob": "0.9187864396666584",
     "away_pregame_elo": 1453,
     "away_postgame_elo": 1560,
@@ -152,12 +122,7 @@
     "home_conference": "Big 12",
     "home_division": "fbs",
     "home_points": 19,
-    "home_line_scores": [
-      0,
-      6,
-      6,
-      7
-    ],
+    "home_line_scores": [0, 6, 6, 7],
     "home_post_win_prob": "0.0811553352620264",
     "home_pregame_elo": 1551,
     "home_postgame_elo": 1508,
@@ -166,12 +131,7 @@
     "away_conference": "Big 12",
     "away_division": "fbs",
     "away_points": 30,
-    "away_line_scores": [
-      7,
-      17,
-      0,
-      6
-    ],
+    "away_line_scores": [7, 17, 0, 6],
     "away_post_win_prob": "0.9188446647379735",
     "away_pregame_elo": 1352,
     "away_postgame_elo": 1395,
@@ -197,13 +157,7 @@
     "home_conference": "Mountain West",
     "home_division": "fbs",
     "home_points": 41,
-    "home_line_scores": [
-      0,
-      21,
-      10,
-      7,
-      3
-    ],
+    "home_line_scores": [0, 21, 10, 7, 3],
     "home_post_win_prob": "0.9875073669077074",
     "home_pregame_elo": 1701,
     "home_postgame_elo": 1675,
@@ -212,13 +166,7 @@
     "away_conference": "ACC",
     "away_division": "fbs",
     "away_points": 44,
-    "away_line_scores": [
-      14,
-      3,
-      14,
-      7,
-      6
-    ],
+    "away_line_scores": [14, 3, 14, 7, 6],
     "away_post_win_prob": "0.012492633092292649",
     "away_pregame_elo": 1378,
     "away_postgame_elo": 1404,
@@ -244,12 +192,7 @@
     "home_conference": "Big Ten",
     "home_division": "fbs",
     "home_points": 31,
-    "home_line_scores": [
-      7,
-      14,
-      3,
-      7
-    ],
+    "home_line_scores": [7, 14, 3, 7],
     "home_post_win_prob": "0.9935499233498072",
     "home_pregame_elo": 1974,
     "home_postgame_elo": 1971,
@@ -258,12 +201,7 @@
     "away_conference": "Big Ten",
     "away_division": "fbs",
     "away_points": 10,
-    "away_line_scores": [
-      0,
-      0,
-      0,
-      10
-    ],
+    "away_line_scores": [0, 0, 0, 10],
     "away_post_win_prob": "0.006450076650192815",
     "away_pregame_elo": 1407,
     "away_postgame_elo": 1410,
@@ -289,12 +227,7 @@
     "home_conference": "Mid-American",
     "home_division": "fbs",
     "home_points": 34,
-    "home_line_scores": [
-      7,
-      0,
-      6,
-      21
-    ],
+    "home_line_scores": [7, 0, 6, 21],
     "home_post_win_prob": "0.9954385438836776",
     "home_pregame_elo": 1455,
     "home_postgame_elo": 1452,
@@ -303,12 +236,7 @@
     "away_conference": "FBS Independents",
     "away_division": "fbs",
     "away_points": 20,
-    "away_line_scores": [
-      7,
-      6,
-      0,
-      7
-    ],
+    "away_line_scores": [7, 6, 0, 7],
     "away_post_win_prob": "0.004561456116322415",
     "away_pregame_elo": 1067,
     "away_postgame_elo": 1070,
@@ -334,12 +262,7 @@
     "home_conference": "ACC",
     "home_division": "fbs",
     "home_points": 24,
-    "home_line_scores": [
-      0,
-      6,
-      0,
-      18
-    ],
+    "home_line_scores": [0, 6, 0, 18],
     "home_post_win_prob": "0.4938901368867562",
     "home_pregame_elo": 1389,
     "home_postgame_elo": 1412,
@@ -348,12 +271,7 @@
     "away_conference": "ACC",
     "away_division": "fbs",
     "away_points": 14,
-    "away_line_scores": [
-      7,
-      7,
-      0,
-      0
-    ],
+    "away_line_scores": [7, 7, 0, 0],
     "away_post_win_prob": "0.5061098631132438",
     "away_pregame_elo": 1471,
     "away_postgame_elo": 1448,
@@ -379,12 +297,7 @@
     "home_conference": "ACC",
     "home_division": "fbs",
     "home_points": 27,
-    "home_line_scores": [
-      10,
-      3,
-      14,
-      0
-    ],
+    "home_line_scores": [10, 3, 14, 0],
     "home_post_win_prob": "0.12259642780226156",
     "home_pregame_elo": 1717,
     "home_postgame_elo": 1707,
@@ -393,12 +306,7 @@
     "away_conference": "ACC",
     "away_division": "fbs",
     "away_points": 34,
-    "away_line_scores": [
-      14,
-      10,
-      3,
-      7
-    ],
+    "away_line_scores": [14, 10, 3, 7],
     "away_post_win_prob": "0.8774035721977385",
     "away_pregame_elo": 1755,
     "away_postgame_elo": 1765,
@@ -424,12 +332,7 @@
     "home_conference": "ACC",
     "home_division": "fbs",
     "home_points": 30,
-    "home_line_scores": [
-      3,
-      13,
-      7,
-      7
-    ],
+    "home_line_scores": [3, 13, 7, 7],
     "home_post_win_prob": "0.686979207588141",
     "home_pregame_elo": 1487,
     "home_postgame_elo": 1473,
@@ -438,12 +341,7 @@
     "away_conference": "ACC",
     "away_division": "fbs",
     "away_points": 34,
-    "away_line_scores": [
-      10,
-      7,
-      3,
-      14
-    ],
+    "away_line_scores": [10, 7, 3, 14],
     "away_post_win_prob": "0.313020792411859",
     "away_pregame_elo": 1376,
     "away_postgame_elo": 1390,
@@ -469,12 +367,7 @@
     "home_conference": "ACC",
     "home_division": "fbs",
     "home_points": 24,
-    "home_line_scores": [
-      7,
-      10,
-      7,
-      0
-    ],
+    "home_line_scores": [7, 10, 7, 0],
     "home_post_win_prob": "0.08994281640453619",
     "home_pregame_elo": 1521,
     "home_postgame_elo": 1497,
@@ -483,12 +376,7 @@
     "away_conference": "ACC",
     "away_division": "fbs",
     "away_points": 34,
-    "away_line_scores": [
-      3,
-      14,
-      7,
-      10
-    ],
+    "away_line_scores": [3, 14, 7, 10],
     "away_post_win_prob": "0.9100571835954638",
     "away_pregame_elo": 1488,
     "away_postgame_elo": 1512,
@@ -514,12 +402,7 @@
     "home_conference": "SEC",
     "home_division": "fbs",
     "home_points": 41,
-    "home_line_scores": [
-      10,
-      14,
-      10,
-      7
-    ],
+    "home_line_scores": [10, 14, 10, 7],
     "home_post_win_prob": "0.9988618929265699",
     "home_pregame_elo": 1683,
     "home_postgame_elo": 1781,
@@ -528,12 +411,7 @@
     "away_conference": "SEC",
     "away_division": "fbs",
     "away_points": 10,
-    "away_line_scores": [
-      0,
-      0,
-      7,
-      3
-    ],
+    "away_line_scores": [0, 0, 7, 3],
     "away_post_win_prob": "0.0011381070734300947",
     "away_pregame_elo": 1790,
     "away_postgame_elo": 1692,
@@ -559,12 +437,7 @@
     "home_conference": "Mountain West",
     "home_division": "fbs",
     "home_points": 7,
-    "home_line_scores": [
-      0,
-      7,
-      0,
-      0
-    ],
+    "home_line_scores": [0, 7, 0, 0],
     "home_post_win_prob": "0.05184426176894664",
     "home_pregame_elo": 1418,
     "home_postgame_elo": 1353,
@@ -573,12 +446,7 @@
     "away_conference": "American Athletic",
     "away_division": "fbs",
     "away_points": 34,
-    "away_line_scores": [
-      14,
-      7,
-      6,
-      7
-    ],
+    "away_line_scores": [14, 7, 6, 7],
     "away_post_win_prob": "0.9481557382310534",
     "away_pregame_elo": 1490,
     "away_postgame_elo": 1555,
@@ -604,12 +472,7 @@
     "home_conference": "Big Ten",
     "home_division": "fbs",
     "home_points": 52,
-    "home_line_scores": [
-      14,
-      7,
-      21,
-      10
-    ],
+    "home_line_scores": [14, 7, 21, 10],
     "home_post_win_prob": "0.9988566905205731",
     "home_pregame_elo": 1536,
     "home_postgame_elo": 1644,
@@ -618,12 +481,7 @@
     "away_conference": "Big Ten",
     "away_division": "fbs",
     "away_points": 6,
-    "away_line_scores": [
-      0,
-      6,
-      0,
-      0
-    ],
+    "away_line_scores": [0, 6, 0, 0],
     "away_post_win_prob": "0.0011433094794268683",
     "away_pregame_elo": 1322,
     "away_postgame_elo": 1214,
@@ -649,12 +507,7 @@
     "home_conference": "Big Ten",
     "home_division": "fbs",
     "home_points": 27,
-    "home_line_scores": [
-      0,
-      14,
-      10,
-      3
-    ],
+    "home_line_scores": [0, 14, 10, 3],
     "home_post_win_prob": "0.9881167331327723",
     "home_pregame_elo": 1905,
     "home_postgame_elo": 1901,
@@ -663,12 +516,7 @@
     "away_conference": "Big Ten",
     "away_division": "fbs",
     "away_points": 11,
-    "away_line_scores": [
-      0,
-      3,
-      0,
-      8
-    ],
+    "away_line_scores": [0, 3, 0, 8],
     "away_post_win_prob": "0.011883266867227738",
     "away_pregame_elo": 1449,
     "away_postgame_elo": 1453,
@@ -694,12 +542,7 @@
     "home_conference": "American Athletic",
     "home_division": "fbs",
     "home_points": 7,
-    "home_line_scores": [
-      7,
-      0,
-      0,
-      0
-    ],
+    "home_line_scores": [7, 0, 0, 0],
     "home_post_win_prob": "0.0003178918284539511",
     "home_pregame_elo": 1132,
     "home_postgame_elo": 1060,
@@ -708,12 +551,7 @@
     "away_conference": "American Athletic",
     "away_division": "fbs",
     "away_points": 49,
-    "away_line_scores": [
-      7,
-      14,
-      21,
-      7
-    ],
+    "away_line_scores": [7, 14, 21, 7],
     "away_post_win_prob": "0.999682108171546",
     "away_pregame_elo": 1534,
     "away_postgame_elo": 1606,
@@ -739,12 +577,7 @@
     "home_conference": "American Athletic",
     "home_division": "fbs",
     "home_points": 20,
-    "home_line_scores": [
-      6,
-      0,
-      0,
-      14
-    ],
+    "home_line_scores": [6, 0, 0, 14],
     "home_post_win_prob": "0.0005259456416550542",
     "home_pregame_elo": 1226,
     "home_postgame_elo": 1128,
@@ -753,12 +586,7 @@
     "away_conference": "American Athletic",
     "away_division": "fbs",
     "away_points": 71,
-    "away_line_scores": [
-      20,
-      17,
-      20,
-      14
-    ],
+    "away_line_scores": [20, 17, 20, 14],
     "away_post_win_prob": "0.9994740543583449",
     "away_pregame_elo": 1653,
     "away_postgame_elo": 1751,
@@ -784,12 +612,7 @@
     "home_conference": "Mid-American",
     "home_division": "fbs",
     "home_points": 42,
-    "home_line_scores": [
-      14,
-      7,
-      14,
-      7
-    ],
+    "home_line_scores": [14, 7, 14, 7],
     "home_post_win_prob": "0.42578317805850324",
     "home_pregame_elo": 1088,
     "home_postgame_elo": 1091,
@@ -798,12 +621,7 @@
     "away_conference": "Mid-American",
     "away_division": "fbs",
     "away_points": 45,
-    "away_line_scores": [
-      21,
-      0,
-      10,
-      14
-    ],
+    "away_line_scores": [21, 0, 10, 14],
     "away_post_win_prob": "0.5742168219414967",
     "away_pregame_elo": 1220,
     "away_postgame_elo": 1217,
@@ -829,12 +647,7 @@
     "home_conference": "FBS Independents",
     "home_division": "fbs",
     "home_points": 29,
-    "home_line_scores": [
-      3,
-      6,
-      7,
-      13
-    ],
+    "home_line_scores": [3, 6, 7, 13],
     "home_post_win_prob": "0.9360119962351842",
     "home_pregame_elo": 1441,
     "home_postgame_elo": 1434,
@@ -843,12 +656,7 @@
     "away_conference": "American Athletic",
     "away_division": "fbs",
     "away_points": 20,
-    "away_line_scores": [
-      0,
-      7,
-      6,
-      7
-    ],
+    "away_line_scores": [0, 7, 6, 7],
     "away_post_win_prob": "0.06398800376481584",
     "away_pregame_elo": 1106,
     "away_postgame_elo": 1113,
@@ -874,12 +682,7 @@
     "home_conference": "Sun Belt",
     "home_division": "fbs",
     "home_points": 52,
-    "home_line_scores": [
-      7,
-      21,
-      10,
-      14
-    ],
+    "home_line_scores": [7, 21, 10, 14],
     "home_post_win_prob": "0.9636293233549902",
     "home_pregame_elo": 1362,
     "home_postgame_elo": 1394,
@@ -888,12 +691,7 @@
     "away_conference": "Sun Belt",
     "away_division": "fbs",
     "away_points": 37,
-    "away_line_scores": [
-      3,
-      14,
-      7,
-      13
-    ],
+    "away_line_scores": [3, 14, 7, 13],
     "away_post_win_prob": "0.036370676645009814",
     "away_pregame_elo": 1366,
     "away_postgame_elo": 1334,
@@ -919,12 +717,7 @@
     "home_conference": "American Athletic",
     "home_division": "fbs",
     "home_points": 55,
-    "home_line_scores": [
-      14,
-      17,
-      3,
-      21
-    ],
+    "home_line_scores": [14, 17, 3, 21],
     "home_post_win_prob": "0.9738885644204506",
     "home_pregame_elo": 1128,
     "home_postgame_elo": 1253,
@@ -933,12 +726,7 @@
     "away_conference": "American Athletic",
     "away_division": "fbs",
     "away_points": 24,
-    "away_line_scores": [
-      3,
-      7,
-      7,
-      7
-    ],
+    "away_line_scores": [3, 7, 7, 7],
     "away_post_win_prob": "0.026111435579549425",
     "away_pregame_elo": 1423,
     "away_postgame_elo": 1298,
@@ -964,12 +752,7 @@
     "home_conference": "ACC",
     "home_division": "fbs",
     "home_points": 7,
-    "home_line_scores": [
-      0,
-      0,
-      7,
-      0
-    ],
+    "home_line_scores": [0, 0, 7, 0],
     "home_post_win_prob": "0.03557608201719444",
     "home_pregame_elo": 1288,
     "home_postgame_elo": 1261,
@@ -978,12 +761,7 @@
     "away_conference": "ACC",
     "away_division": "fbs",
     "away_points": 31,
-    "away_line_scores": [
-      7,
-      7,
-      7,
-      10
-    ],
+    "away_line_scores": [7, 7, 7, 10],
     "away_post_win_prob": "0.9644239179828056",
     "away_pregame_elo": 1617,
     "away_postgame_elo": 1644,
@@ -1009,12 +787,7 @@
     "home_conference": "Big Ten",
     "home_division": "fbs",
     "home_points": 24,
-    "home_line_scores": [
-      0,
-      10,
-      7,
-      7
-    ],
+    "home_line_scores": [0, 10, 7, 7],
     "home_post_win_prob": "0.0018232646309650244",
     "home_pregame_elo": 1493,
     "home_postgame_elo": 1473,
@@ -1023,12 +796,7 @@
     "away_conference": "Big Ten",
     "away_division": "fbs",
     "away_points": 41,
-    "away_line_scores": [
-      7,
-      10,
-      7,
-      17
-    ],
+    "away_line_scores": [7, 10, 7, 17],
     "away_post_win_prob": "0.998176735369035",
     "away_pregame_elo": 1628,
     "away_postgame_elo": 1648,
@@ -1054,12 +822,7 @@
     "home_conference": "Big Ten",
     "home_division": "fbs",
     "home_points": 35,
-    "home_line_scores": [
-      7,
-      0,
-      21,
-      7
-    ],
+    "home_line_scores": [7, 0, 21, 7],
     "home_post_win_prob": "0.9984027844674853",
     "home_pregame_elo": 2054,
     "home_postgame_elo": 2080,
@@ -1068,12 +831,7 @@
     "away_conference": "Big Ten",
     "away_division": "fbs",
     "away_points": 7,
-    "away_line_scores": [
-      0,
-      0,
-      0,
-      7
-    ],
+    "away_line_scores": [0, 0, 0, 7],
     "away_post_win_prob": "0.0015972155325146842",
     "away_pregame_elo": 1626,
     "away_postgame_elo": 1600,
@@ -1099,12 +857,7 @@
     "home_conference": "Mid-American",
     "home_division": "fbs",
     "home_points": 20,
-    "home_line_scores": [
-      10,
-      0,
-      0,
-      10
-    ],
+    "home_line_scores": [10, 0, 0, 10],
     "home_post_win_prob": "0.04462931906899563",
     "home_pregame_elo": 1040,
     "home_postgame_elo": 1055,
@@ -1113,12 +866,7 @@
     "away_conference": "Mid-American",
     "away_division": "fbs",
     "away_points": 27,
-    "away_line_scores": [
-      7,
-      10,
-      0,
-      10
-    ],
+    "away_line_scores": [7, 10, 0, 10],
     "away_post_win_prob": "0.9553706809310044",
     "away_pregame_elo": 1439,
     "away_postgame_elo": 1424,
@@ -1144,12 +892,7 @@
     "home_conference": "Mid-American",
     "home_division": "fbs",
     "home_points": 30,
-    "home_line_scores": [
-      14,
-      6,
-      3,
-      7
-    ],
+    "home_line_scores": [14, 6, 3, 7],
     "home_post_win_prob": "0.9057294659383401",
     "home_pregame_elo": 1565,
     "home_postgame_elo": 1574,
@@ -1158,12 +901,7 @@
     "away_conference": "Mid-American",
     "away_division": "fbs",
     "away_points": 20,
-    "away_line_scores": [
-      3,
-      3,
-      7,
-      7
-    ],
+    "away_line_scores": [3, 3, 7, 7],
     "away_post_win_prob": "0.09427053406165986",
     "away_pregame_elo": 1446,
     "away_postgame_elo": 1437,
@@ -1189,12 +927,7 @@
     "home_conference": "SEC",
     "home_division": "fbs",
     "home_points": 31,
-    "home_line_scores": [
-      7,
-      7,
-      7,
-      10
-    ],
+    "home_line_scores": [7, 7, 7, 10],
     "home_post_win_prob": "0.9274264938830571",
     "home_pregame_elo": 2036,
     "home_postgame_elo": 2033,
@@ -1203,12 +936,7 @@
     "away_conference": "SEC",
     "away_division": "fbs",
     "away_points": 13,
-    "away_line_scores": [
-      3,
-      0,
-      7,
-      3
-    ],
+    "away_line_scores": [3, 0, 7, 3],
     "away_post_win_prob": "0.07257350611694291",
     "away_pregame_elo": 1547,
     "away_postgame_elo": 1550,
@@ -1234,12 +962,7 @@
     "home_conference": "SEC",
     "home_division": "fbs",
     "home_points": 3,
-    "home_line_scores": [
-      0,
-      3,
-      0,
-      0
-    ],
+    "home_line_scores": [0, 3, 0, 0],
     "home_post_win_prob": "0.04410312984767961",
     "home_pregame_elo": 1699,
     "home_postgame_elo": 1654,
@@ -1248,12 +971,7 @@
     "away_conference": "SEC",
     "away_division": "fbs",
     "away_points": 27,
-    "away_line_scores": [
-      14,
-      10,
-      3,
-      0
-    ],
+    "away_line_scores": [14, 10, 3, 0],
     "away_post_win_prob": "0.9558968701523204",
     "away_pregame_elo": 1861,
     "away_postgame_elo": 1906,
@@ -1279,12 +997,7 @@
     "home_conference": "Big 12",
     "home_division": "fbs",
     "home_points": 14,
-    "home_line_scores": [
-      0,
-      7,
-      0,
-      7
-    ],
+    "home_line_scores": [0, 7, 0, 7],
     "home_post_win_prob": "0.007877304103749191",
     "home_pregame_elo": 1553,
     "home_postgame_elo": 1489,
@@ -1293,12 +1006,7 @@
     "away_conference": "Big 12",
     "away_division": "fbs",
     "away_points": 38,
-    "away_line_scores": [
-      10,
-      21,
-      0,
-      7
-    ],
+    "away_line_scores": [10, 21, 0, 7],
     "away_post_win_prob": "0.9921226958962508",
     "away_pregame_elo": 1546,
     "away_postgame_elo": 1610,
@@ -1324,12 +1032,7 @@
     "home_conference": "Big Ten",
     "home_division": "fbs",
     "home_points": 14,
-    "home_line_scores": [
-      7,
-      7,
-      0,
-      0
-    ],
+    "home_line_scores": [7, 7, 0, 0],
     "home_post_win_prob": "0.993724974384019",
     "home_pregame_elo": 1591,
     "home_postgame_elo": 1597,
@@ -1338,12 +1041,7 @@
     "away_conference": "Big Ten",
     "away_division": "fbs",
     "away_points": 7,
-    "away_line_scores": [
-      0,
-      0,
-      0,
-      7
-    ],
+    "away_line_scores": [0, 0, 0, 7],
     "away_post_win_prob": "0.006275025615981034",
     "away_pregame_elo": 1527,
     "away_postgame_elo": 1521,
@@ -1369,12 +1067,7 @@
     "home_conference": "SEC",
     "home_division": "fbs",
     "home_points": 40,
-    "home_line_scores": [
-      13,
-      10,
-      7,
-      10
-    ],
+    "home_line_scores": [13, 10, 7, 10],
     "home_post_win_prob": "0.8807790275067171",
     "home_pregame_elo": 1317,
     "home_postgame_elo": 1359,
@@ -1383,12 +1076,7 @@
     "away_conference": "SEC",
     "away_division": "fbs",
     "away_points": 35,
-    "away_line_scores": [
-      7,
-      7,
-      14,
-      7
-    ],
+    "away_line_scores": [7, 7, 14, 7],
     "away_post_win_prob": "0.1192209724932829",
     "away_pregame_elo": 2056,
     "away_postgame_elo": 2014,
@@ -1414,14 +1102,7 @@
     "home_conference": "Pac-12",
     "home_division": "fbs",
     "home_points": 39,
-    "home_line_scores": [
-      0,
-      14,
-      0,
-      10,
-      7,
-      8
-    ],
+    "home_line_scores": [0, 14, 0, 10, 7, 8],
     "home_post_win_prob": "0.5371609191611808",
     "home_pregame_elo": 1619,
     "home_postgame_elo": 1609,
@@ -1430,14 +1111,7 @@
     "away_conference": "Mountain West",
     "away_division": "fbs",
     "away_points": 31,
-    "away_line_scores": [
-      7,
-      3,
-      0,
-      14,
-      7,
-      0
-    ],
+    "away_line_scores": [7, 3, 0, 14, 7, 0],
     "away_post_win_prob": "0.4628390808388192",
     "away_pregame_elo": 1236,
     "away_postgame_elo": 1246,
@@ -1463,12 +1137,7 @@
     "home_conference": "Sun Belt",
     "home_division": "fbs",
     "home_points": 21,
-    "home_line_scores": [
-      0,
-      14,
-      0,
-      7
-    ],
+    "home_line_scores": [0, 14, 0, 7],
     "home_post_win_prob": "0.8810814130757101",
     "home_pregame_elo": 1240,
     "home_postgame_elo": 1247,
@@ -1477,12 +1146,7 @@
     "away_conference": "Sun Belt",
     "away_division": "fbs",
     "away_points": 19,
-    "away_line_scores": [
-      10,
-      3,
-      0,
-      6
-    ],
+    "away_line_scores": [10, 3, 0, 6],
     "away_post_win_prob": "0.11891858692428992",
     "away_pregame_elo": 1830,
     "away_postgame_elo": 1823,
@@ -1508,12 +1172,7 @@
     "home_conference": "ACC",
     "home_division": "fbs",
     "home_points": 13,
-    "home_line_scores": [
-      0,
-      7,
-      0,
-      6
-    ],
+    "home_line_scores": [0, 7, 0, 6],
     "home_post_win_prob": "0.04595850599760115",
     "home_pregame_elo": 1544,
     "home_postgame_elo": 1532,
@@ -1522,12 +1181,7 @@
     "away_conference": "ACC",
     "away_division": "fbs",
     "away_points": 29,
-    "away_line_scores": [
-      17,
-      6,
-      0,
-      6
-    ],
+    "away_line_scores": [17, 6, 0, 6],
     "away_post_win_prob": "0.9540414940023989",
     "away_pregame_elo": 1805,
     "away_postgame_elo": 1817,
@@ -1553,12 +1207,7 @@
     "home_conference": "Sun Belt",
     "home_division": "fbs",
     "home_points": 13,
-    "home_line_scores": [
-      0,
-      13,
-      0,
-      0
-    ],
+    "home_line_scores": [0, 13, 0, 0],
     "home_post_win_prob": "0.08284809267446264",
     "home_pregame_elo": 1106,
     "home_postgame_elo": 1120,
@@ -1567,12 +1216,7 @@
     "away_conference": "Sun Belt",
     "away_division": "fbs",
     "away_points": 23,
-    "away_line_scores": [
-      3,
-      14,
-      3,
-      3
-    ],
+    "away_line_scores": [3, 14, 3, 3],
     "away_post_win_prob": "0.9171519073255374",
     "away_pregame_elo": 1537,
     "away_postgame_elo": 1523,
@@ -1598,12 +1242,7 @@
     "home_conference": "Sun Belt",
     "home_division": "fbs",
     "home_points": 18,
-    "home_line_scores": [
-      3,
-      3,
-      3,
-      9
-    ],
+    "home_line_scores": [3, 3, 3, 9],
     "home_post_win_prob": "0.5303647221727372",
     "home_pregame_elo": 1313,
     "home_postgame_elo": 1317,
@@ -1612,12 +1251,7 @@
     "away_conference": "Sun Belt",
     "away_division": "fbs",
     "away_points": 16,
-    "away_line_scores": [
-      0,
-      3,
-      7,
-      6
-    ],
+    "away_line_scores": [0, 3, 7, 6],
     "away_post_win_prob": "0.4696352778272628",
     "away_pregame_elo": 1588,
     "away_postgame_elo": 1584,
@@ -1643,12 +1277,7 @@
     "home_conference": "Mountain West",
     "home_division": "fbs",
     "home_points": 62,
-    "home_line_scores": [
-      14,
-      35,
-      6,
-      7
-    ],
+    "home_line_scores": [14, 35, 6, 7],
     "home_post_win_prob": "0.9988310034033747",
     "home_pregame_elo": 1677,
     "home_postgame_elo": 1708,
@@ -1657,12 +1286,7 @@
     "away_conference": "Mountain West",
     "away_division": "fbs",
     "away_points": 30,
-    "away_line_scores": [
-      3,
-      14,
-      7,
-      6
-    ],
+    "away_line_scores": [3, 14, 7, 6],
     "away_post_win_prob": "0.0011689965966252824",
     "away_pregame_elo": 1193,
     "away_postgame_elo": 1162,
@@ -1688,12 +1312,7 @@
     "home_conference": "Sun Belt",
     "home_division": "fbs",
     "home_points": 45,
-    "home_line_scores": [
-      7,
-      14,
-      14,
-      10
-    ],
+    "home_line_scores": [7, 14, 14, 10],
     "home_post_win_prob": "0.9883943887615158",
     "home_pregame_elo": 1448,
     "home_postgame_elo": 1456,
@@ -1702,12 +1321,7 @@
     "away_conference": "Sun Belt",
     "away_division": "fbs",
     "away_points": 37,
-    "away_line_scores": [
-      7,
-      10,
-      7,
-      13
-    ],
+    "away_line_scores": [7, 10, 7, 13],
     "away_post_win_prob": "0.011605611238484248",
     "away_pregame_elo": 1377,
     "away_postgame_elo": 1369,
@@ -1733,12 +1347,7 @@
     "home_conference": "Big Ten",
     "home_division": "fbs",
     "home_points": 24,
-    "home_line_scores": [
-      3,
-      7,
-      0,
-      14
-    ],
+    "home_line_scores": [3, 7, 0, 14],
     "home_post_win_prob": "0.8824886018679423",
     "home_pregame_elo": 1506,
     "home_postgame_elo": 1533,
@@ -1747,12 +1356,7 @@
     "away_conference": "Big Ten",
     "away_division": "fbs",
     "away_points": 17,
-    "away_line_scores": [
-      0,
-      10,
-      7,
-      0
-    ],
+    "away_line_scores": [0, 10, 7, 0],
     "away_post_win_prob": "0.11751139813205769",
     "away_pregame_elo": 1786,
     "away_postgame_elo": 1759,
@@ -1778,12 +1382,7 @@
     "home_conference": "Mountain West",
     "home_division": "fbs",
     "home_points": 35,
-    "home_line_scores": [
-      7,
-      14,
-      7,
-      7
-    ],
+    "home_line_scores": [7, 14, 7, 7],
     "home_post_win_prob": "0.4058203903025504",
     "home_pregame_elo": 1601,
     "home_postgame_elo": 1594,
@@ -1792,12 +1391,7 @@
     "away_conference": "Mountain West",
     "away_division": "fbs",
     "away_points": 31,
-    "away_line_scores": [
-      7,
-      14,
-      7,
-      3
-    ],
+    "away_line_scores": [7, 14, 7, 3],
     "away_post_win_prob": "0.5941796096974497",
     "away_pregame_elo": 1228,
     "away_postgame_elo": 1235,
@@ -1823,12 +1417,7 @@
     "home_conference": "SEC",
     "home_division": "fbs",
     "home_points": 19,
-    "home_line_scores": [
-      3,
-      0,
-      7,
-      9
-    ],
+    "home_line_scores": [3, 0, 7, 9],
     "home_post_win_prob": "0.853422504219712",
     "home_pregame_elo": 1485,
     "home_postgame_elo": 1513,
@@ -1837,12 +1426,7 @@
     "away_conference": "SEC",
     "away_division": "fbs",
     "away_points": 14,
-    "away_line_scores": [
-      0,
-      0,
-      14,
-      0
-    ],
+    "away_line_scores": [0, 0, 14, 0],
     "away_post_win_prob": "0.146577495780288",
     "away_pregame_elo": 1975,
     "away_postgame_elo": 1947,
@@ -1868,12 +1452,7 @@
     "home_conference": "Big Ten",
     "home_division": "fbs",
     "home_points": 27,
-    "home_line_scores": [
-      7,
-      7,
-      0,
-      13
-    ],
+    "home_line_scores": [7, 7, 0, 13],
     "home_post_win_prob": "0.47528760860669517",
     "home_pregame_elo": 1762,
     "home_postgame_elo": 1790,
@@ -1882,12 +1461,7 @@
     "away_conference": "Big Ten",
     "away_division": "fbs",
     "away_points": 17,
-    "away_line_scores": [
-      0,
-      10,
-      7,
-      0
-    ],
+    "away_line_scores": [0, 10, 7, 0],
     "away_post_win_prob": "0.5247123913933048",
     "away_pregame_elo": 1906,
     "away_postgame_elo": 1878,
@@ -1913,12 +1487,7 @@
     "home_conference": "Big 12",
     "home_division": "fbs",
     "home_points": 43,
-    "home_line_scores": [
-      3,
-      16,
-      14,
-      10
-    ],
+    "home_line_scores": [3, 16, 14, 10],
     "home_post_win_prob": "0.9961608558338894",
     "home_pregame_elo": 1732,
     "home_postgame_elo": 1760,
@@ -1927,12 +1496,7 @@
     "away_conference": "Big 12",
     "away_division": "fbs",
     "away_points": 21,
-    "away_line_scores": [
-      7,
-      7,
-      7,
-      0
-    ],
+    "away_line_scores": [7, 7, 7, 0],
     "away_post_win_prob": "0.003839144166110642",
     "away_pregame_elo": 1485,
     "away_postgame_elo": 1457,
@@ -1958,12 +1522,7 @@
     "home_conference": "SEC",
     "home_division": "fbs",
     "home_points": 24,
-    "home_line_scores": [
-      7,
-      17,
-      0,
-      0
-    ],
+    "home_line_scores": [7, 17, 0, 0],
     "home_post_win_prob": "0.9065111632798241",
     "home_pregame_elo": 1516,
     "home_postgame_elo": 1537,
@@ -1972,12 +1531,7 @@
     "away_conference": "Big 12",
     "away_division": "fbs",
     "away_points": 13,
-    "away_line_scores": [
-      3,
-      0,
-      3,
-      7
-    ],
+    "away_line_scores": [3, 0, 3, 7],
     "away_post_win_prob": "0.09348883672017594",
     "away_pregame_elo": 1531,
     "away_postgame_elo": 1510,
@@ -2003,12 +1557,7 @@
     "home_conference": "Big 12",
     "home_division": "fbs",
     "home_points": 35,
-    "home_line_scores": [
-      7,
-      7,
-      0,
-      21
-    ],
+    "home_line_scores": [7, 7, 0, 21],
     "home_post_win_prob": "0.9515028850251191",
     "home_pregame_elo": 1506,
     "home_postgame_elo": 1511,
@@ -2017,12 +1566,7 @@
     "away_conference": "Big 12",
     "away_division": "fbs",
     "away_points": 31,
-    "away_line_scores": [
-      7,
-      7,
-      3,
-      14
-    ],
+    "away_line_scores": [7, 7, 3, 14],
     "away_post_win_prob": "0.04849711497488085",
     "away_pregame_elo": 1575,
     "away_postgame_elo": 1570,
@@ -2048,12 +1592,7 @@
     "home_conference": "ACC",
     "home_division": "fbs",
     "home_points": 24,
-    "home_line_scores": [
-      7,
-      3,
-      0,
-      14
-    ],
+    "home_line_scores": [7, 3, 0, 14],
     "home_post_win_prob": "0.9902065561311496",
     "home_pregame_elo": 1545,
     "home_postgame_elo": 1568,
@@ -2062,12 +1601,7 @@
     "away_conference": "ACC",
     "away_division": "fbs",
     "away_points": 14,
-    "away_line_scores": [
-      0,
-      7,
-      7,
-      0
-    ],
+    "away_line_scores": [0, 7, 7, 0],
     "away_post_win_prob": "0.009793443868850393",
     "away_pregame_elo": 1621,
     "away_postgame_elo": 1598,
@@ -2093,12 +1627,7 @@
     "home_conference": "Mountain West",
     "home_division": "fbs",
     "home_points": 27,
-    "home_line_scores": [
-      3,
-      14,
-      3,
-      7
-    ],
+    "home_line_scores": [3, 14, 3, 7],
     "home_post_win_prob": "0.4864534347971009",
     "home_pregame_elo": 1344,
     "home_postgame_elo": 1343,
@@ -2107,12 +1636,7 @@
     "away_conference": "Mountain West",
     "away_division": "fbs",
     "away_points": 24,
-    "away_line_scores": [
-      3,
-      7,
-      7,
-      7
-    ],
+    "away_line_scores": [3, 7, 7, 7],
     "away_post_win_prob": "0.5135465652028991",
     "away_pregame_elo": 1214,
     "away_postgame_elo": 1215,
@@ -2138,12 +1662,7 @@
     "home_conference": "ACC",
     "home_division": "fbs",
     "home_points": 38,
-    "home_line_scores": [
-      7,
-      14,
-      14,
-      3
-    ],
+    "home_line_scores": [7, 14, 14, 3],
     "home_post_win_prob": "0.7941413267896873",
     "home_pregame_elo": 1537,
     "home_postgame_elo": 1549,
@@ -2152,12 +1671,7 @@
     "away_conference": "ACC",
     "away_division": "fbs",
     "away_points": 39,
-    "away_line_scores": [
-      7,
-      3,
-      8,
-      21
-    ],
+    "away_line_scores": [7, 3, 8, 21],
     "away_post_win_prob": "0.2058586732103127",
     "away_pregame_elo": 1834,
     "away_postgame_elo": 1822,
@@ -2183,12 +1697,7 @@
     "home_conference": "Big 12",
     "home_division": "fbs",
     "home_points": 22,
-    "home_line_scores": [
-      3,
-      0,
-      13,
-      6
-    ],
+    "home_line_scores": [3, 0, 13, 6],
     "home_post_win_prob": "0.13349258042688492",
     "home_pregame_elo": 1694,
     "home_postgame_elo": 1678,
@@ -2197,12 +1706,7 @@
     "away_conference": "Big 12",
     "away_division": "fbs",
     "away_points": 28,
-    "away_line_scores": [
-      7,
-      11,
-      0,
-      10
-    ],
+    "away_line_scores": [7, 11, 0, 10],
     "away_post_win_prob": "0.8665074195731151",
     "away_pregame_elo": 1628,
     "away_postgame_elo": 1644,

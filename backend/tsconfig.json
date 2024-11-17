@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "ESNext",        // or "ES6"
+    "module": "ESNext", // or "ES6"
     "target": "ES6",
     "moduleResolution": "Node",
     "esModuleInterop": true,
