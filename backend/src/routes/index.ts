@@ -57,7 +57,7 @@ router.get('/territory/week/:weekId', async (req: Request, res: Response) => {
     }
 });
 
-router.get('/counties', async (req: Request, res: Response) => {
+router.get('/counties', async () => {
     return null;
 });
 

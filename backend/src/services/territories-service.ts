@@ -58,7 +58,7 @@ function getCountyTeams(week1Territories) {
 
 
 function analyzeTerritory(initialTerritories, games){
-    let updatedTeamTerritories = {
+    const updatedTeamTerritories = {
         ...initialTerritories,
     };
     games.forEach((game) => {

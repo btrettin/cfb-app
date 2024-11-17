@@ -6,6 +6,7 @@
     "backend"
   ],
   "scripts": {
+    "lint": "npm run lint --workspaces",
     "dev": "concurrently \"npm --prefix ./frontend run dev\" \"npm --prefix ./backend run dev\"",
     "build": "concurrently \"npm --prefix ./frontend run build\" \"npm --prefix ./backend run build\""
   },
@@ -15,8 +16,19 @@
     "d3": "^7.9.0"
   },
   "devDependencies": {
+    "@eslint/js": "^9.11.1",
     "concurrently": "^9.0.1",
     "@types/lodash": "^4.17.12",
-    "typescript": "^5.6.3"
+    "typescript": "^5.6.3",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-notice": "^1.0.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-vitest": "^0.5.4",
+    "@typescript-eslint/eslint-plugin": "^8.11.0",
+    "@typescript-eslint/parser": "^8.11.0",
+    "eslint": "^9.11.1",
+    "eslint-config-prettier": "^9.1.0",
+    "typescript-eslint": "^8.7.0"
   }
 }
