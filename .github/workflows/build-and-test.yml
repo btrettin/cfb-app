@@ -38,6 +38,7 @@ jobs:
       - name: Install dependencies
         working-directory: ${{ matrix.directory }}
         run: npm ci --workspaces --prefer-offline --ignore-scripts
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
 
       - name: Run Lint
         working-directory: ${{ matrix.directory }}
