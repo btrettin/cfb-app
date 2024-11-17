@@ -27,6 +27,7 @@ jobs:
       - name: Install dependencies
         working-directory: ${{ matrix.directory }}
         run: npm ci
+        continue-on-error: false
 
       - name: Run Lint
         working-directory: ${{ matrix.directory }}
