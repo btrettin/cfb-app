@@ -7,18 +7,21 @@
   ],
   "scripts": {
     "lint": "npm --workspace frontend run lint",
+    "test": "npm run test --workspaces",
     "prettier:check": "npm --workspace frontend run prettier:check",
     "dev": "concurrently \"npm --prefix ./frontend run dev\" \"npm --prefix ./backend run dev\"",
     "build": "concurrently \"npm --prefix ./frontend run build\" \"npm --prefix ./backend run build\""
   },
   "dependencies": {
+    "d3": "^7.9.0",
     "lodash": "^4.17.21",
     "node-fetch": "^3.3.2",
-    "d3": "^7.9.0"
+    "vitest": "^2.1.5"
   },
   "devDependencies": {
-    "concurrently": "^9.0.1",
     "@types/lodash": "^4.17.12",
+    "eslint-plugin-vitest": "^0.5.4",
+    "concurrently": "^9.0.1",
     "typescript": "^5.6.3"
   }
 }
