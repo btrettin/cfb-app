@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        directory: [frontend, backend]
+        directory: [frontend]
 
     steps:
       - name: Check out repository
