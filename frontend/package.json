@@ -10,6 +10,7 @@
     "lint": "eslint .",
     "fixlint": "eslint . --fix",
     "preview": "vite preview",
+    "prettier": "prettier --check '.'",
     "format": "prettier --write ."
   },
   "dependencies": {

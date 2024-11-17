@@ -7,6 +7,7 @@
   ],
   "scripts": {
     "lint": "npm --workspace frontend run lint",
+    "prettier": "npm --workspace frontend run prettier",
     "dev": "concurrently \"npm --prefix ./frontend run dev\" \"npm --prefix ./backend run dev\"",
     "build": "concurrently \"npm --prefix ./frontend run build\" \"npm --prefix ./backend run build\""
   },
